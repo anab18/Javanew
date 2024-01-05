@@ -1,0 +1,33 @@
+ Type casting is changing the datatype of data.
+    data types from small to large.
+    byte
+    short
+    int
+    long
+    float
+    double.
+    There are two types of type casting.
+    Automatic/widening/implicit
+        when we move from smaller boxes to large boxes it is
+        called automatic/widening/implicit.
+    Manual/Narrowing/explicit:
+        When we move from a larger box to a smaller box.
+Why we need type casting?
+    1) Sometimes we might only be interested in whole numbers
+    and want to ignore the decimal parts.
+    2) When multiple developers work on the same project
+    they might use different data types, and
+    we might have to convert
+    these before we merge their code.
+
+     10>5  true
+        5>7  false
+        5<10 true
+        12<10 false
+        13==11 false
+        15!=15 false
+        10!=12 true
+        1=>2 false or false -> false
+        2=>2  true or false -> true
+        10<=10 true or false -> true
+        5<=8  true or false true
