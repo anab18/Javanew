@@ -13,8 +13,9 @@ public class E2ArrayList {
 
         System.out.println(num);//overloading
         num.remove(0);//remuve linia o
-        num.remove(4.);//remuve exact numaru
-        System.out.println(num);
+        num.remove(4.);//remuve exact numar
+        System.out.println("*****************");
+       System.out.println(num);
 
 
     }
